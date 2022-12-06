@@ -83,6 +83,9 @@ body
     position: sticky;
     z-index: 2;
 }
+.text-center {
+    padding-bottom: 20px !important;
+}
 .navbar
 {
     background-color: rgb(0, 0, 0);
