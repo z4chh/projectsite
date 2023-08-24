@@ -140,11 +140,15 @@ body
 .projects
 {
     padding-top: 50px;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
     background-color: #f1f1f1;
     padding-bottom: 0px !important;
     scroll-margin-top: 50px !important;
     padding-bottom: 50px !important;
+}
+.projects h2
+{
+    color: #f1f1f1;
 }
 .profile-img
 {

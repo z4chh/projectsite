@@ -30,7 +30,7 @@
             <div class="nav-bar">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="zachpdn.png"></a>
+                  <!----<a class="navbar-brand" href="#"><img src="zachpdn.png"></a>----->
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                   </button>
@@ -63,61 +63,85 @@
                     <div class="col-md-6">
                         <h4>About Me</h4>
                         <p>
-                            I am a first year Electrical Engineering major at Cal Poly. My biggests interests are computers, programming, and entrepreneurship. This is the second website I have made, and I am happy to be learning a lot about coding. I am a member of the Power Energy Society and am looking to join an additional club that gets me more involved in software. I also like lifting weights, spending time outdoors, and playing soccer. 
+                            I studying Electrical Engineering at Cal Poly. My biggests interests are self-improvement, computers, soccer, exercising, neuroscience and math. As of August 2023, I am learning C, dopamine hacking, and parallel computing. 
                         </p>
 
                         <div class="skills-bar">
                           <h4>Skills</h4>
-                          <p>AutoCAD</p>
+                          <p>SystemVerilog</p>
+                          <div class="progress">
+                          <div class="progress-bar" style="width: 70%;"></div>
+                          </div>
+
+                          <p>Python Scripting</p>
                           <div class="progress">
                           <div class="progress-bar" style="width: 50%;"></div>
                           </div>
 
-                          <p>HTML/CSS</p>
+                          <p>Circuits</p>
                           <div class="progress">
-                          <div class="progress-bar" style="width: 20%;"></div>
+                          <div class="progress-bar" style="width: 30%;"></div>
                           </div>
 
-                          <p>C and Python Programming</p>
+                          <p>C Programming (new)</p>
                           <div class="progress">
-                          <div class="progress-bar" style="width: 20%;"></div>
-                          </div>
-
-                          <p>Arduino Systems/Firmware</p>
-                          <div class="progress">
-                          <div class="progress-bar" style="width: 40%;"></div>
+                          <div class="progress-bar" style="width: 10%;"></div>
                           </div>
                         </div>
                     </div>
                 </div>
               </div>
 
+              <!--------------------------Social Icoins------------------------->
+              <div class="social-icons">
+                <ul>
+                  <a href="https://www.linkedin.com/in/iamzachgray" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+                    <a href="https://github.com/z4chh"><li><i class="fa fa-github"></i></li></a>
+                </ul>
+            </div>
+
               <!----------------------------Projects---------------------------->
+
+              <!-----------------logic jackpot-->
               <div class="projects" id="projects">
                 <div class="container">
                   <h1 class="text-center">Featured Projects</h1>
     
                   <div class="row">
                     <div class="col-md-6 text-center">
-                      <iframe width="500" height="240"
-                      src="https://www.youtube.com/embed/cmV_eEDjSYI">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/cmV_eEDjSYI?start=37" 
+                      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     </div>
                     <div class="col-md-6">
-                      <h4>Arduino Anti-Theft Device</h4>
-                      <p>I made this during my first quarter of college. I was brand new to Arduino and Programming but was eager to learn and try new things. The idea behind this project was an anti-theft device one could put on/in their belongings if they had to leave them unattended, like at the library. Once connected to power, the IR remote activates the alarm, initiating a 5 second countdown until the alarm is armed. Once it is armed, if the MPU-6050 senses any movement in the x, y, or z direction, the alarm sounds. Once the alarm sounds, it will keep going until turned off via the IR remote.</p>
+                      <h4>LogicJackpot</h4>
+                      <p>Basys 3 FPGA board slot machine. I designed, simulated, and implemented this with SystemVerilog and the Vivado Design Suite. Some of my proud design features include a clock divider, a pseudo-random number generator (LSFR), and of course the Finite-state machine. My passion for this was to show to my friends the futility of gambling, to discourage them.</p>
+                      <a href="https://github.com/z4chh/FPGA_Slot_Machine" target = _blank>Click to see HDL on github (it isn't called code!!)</a> 
                     </div>
 
                   </div>
                 </div>
+
+                <!-----------------smart sentry---->
+                <div class="container">   
+                  <h2 class="text-center">hi</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h4>SmartSenty</h4>
+                      <p>Utilizes Arduino Microcontroller along with various modules. The IR remote primes the alarm, initiating a 5 second countdown until the alarm is armed. Then, if the accelerometer senses any movement in the x, y, or z direction, the alarm sounds. Once the alarm sounds, it will keep going until turned off via the IR remote. The idea behind this project was an anti-theft device one could put on/in their belongings if they had to leave them unattended, like at the library.</p>
+                      <a href="https://github.com/z4chh/firstarduinoproject" target = _blank>Click to see code on github</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/cmV_eEDjSYI?start=37" 
+                      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    </div>
+                    
+
+                  </div>
+                </div>
               </div>
-              <!--------------------------Social Icoins------------------------->
-              <div class="social-icons">
-                  <ul>
-                    <a href="https://www.linkedin.com/in/iamzachgray" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
-                      <a href="https://github.com/z4chh"><li><i class="fa fa-github"></i></li></a>
-                  </ul>
-              </div>
+              
               <!--------------------------CONTACT----------------------------->
               <div class="contact" id="contact">
                 <div class="container text-center">
@@ -139,13 +163,13 @@
                         <p><a href="https://www.linkedin.com/in/iamzachgray" target="_blank" style="color: #fff">My LinkedIn</a></p>
                       </div>
                     </div>
-                    <a href="Zachary_Gray_Resume_Fall22.pdf" target="_blank" class="btn btn-primary">
+                    <a href="Gray_Zach_DigitalDesign_Resume_4website.pdf" target="_blank" class="btn btn-primary">
                       <i class="fa-solid fa-download"></i> Resume</a>
                     <a href="hireme.html" target="_blank" class="btn btn-primary">
                       <i class="fa-solid fa-rocket"></i> Hire Me</a>
                 </div>
                 <div class="footer text-center">
-                  <p>Made with <i class="fa fa-heart-o"></i> by Zach Gray</p>
+                  <p>Made with <i class="fa fa-heart-o"></i> by Zach Gray (Lol)</p>
                 </div>
               </div>
         </section>
