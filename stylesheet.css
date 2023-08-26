@@ -149,6 +149,11 @@ body
 {
     color: #f1f1f1;
 }
+.project iframe
+{
+    max-width: 100%;
+    height: auto !important;
+}
 .profile-img
 {
     height: 300px;
